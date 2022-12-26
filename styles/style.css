@@ -111,7 +111,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .two-columns__paragraph:last-child {
@@ -289,6 +289,18 @@
   justify-content: space-between;
 }
 
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  justify-content: start;
+}
+
+.footer__column_content_social {
+  justify-content: start;
+}
+
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -317,18 +329,6 @@
   margin: 0 10px 0 0;
   width: 16px;
   height: 16px;
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-}
-
-.footer__column_content_info {
-  justify-content: start;
-}
-
-.footer__column_content_social {
-  justify-content: start;
 }
 
 .footer__author {
